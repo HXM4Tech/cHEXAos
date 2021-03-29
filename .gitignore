@@ -1,0 +1,4 @@
+/.vscode
+/MakeAndRun.sh
+/dist/*
+/build/*
