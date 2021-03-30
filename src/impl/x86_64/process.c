@@ -3,9 +3,9 @@
 int ALL_PIDS[] = {};
 
 int process_create(char* path, char* user) {
-    // TU COŚ BĘDZIE
+    // TODO
 }
 
 int process_getpid() {
-    // TU COŚ BĘDZIE
+    // TODO
 }

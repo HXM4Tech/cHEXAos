@@ -1,8 +1,8 @@
 #include "acpi.h"
 
 void acpi_reboot() {
-    // TU COŚ BĘDZIE
+    // TODO
 }
 void acpi_pwroff() {
-    // TU COŚ BĘDZIE
+    // TODO
 }

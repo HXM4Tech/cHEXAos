@@ -13,5 +13,5 @@ void sig_all(uint8_t signal) {
 }
 
 void sig_pid(int pid, uint8_t signal) {
-    // TU COŚ BĘDZIE
+    // TODO
 }

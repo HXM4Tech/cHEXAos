@@ -1,9 +1,9 @@
 #include "time.h"
 
 void time_wait(int pid, int time_secs) {
-    // TU COŚ BĘDZIE
+    // TODO
 }
 
 double time_what() {
-    // TU COŚ BĘDZIE
+    // TODO
 }
