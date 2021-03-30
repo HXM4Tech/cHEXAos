@@ -1,7 +1,7 @@
 # How to contribute?
 The cHEXAos operating system is under [GNU GPL 3.0 license](LICENSE).
 I accept contributions via GitHub pull requests.
-If you don't know GitHub enough, follow link bellow.
+If you don't know GitHub enough, follow link:
 https://www.dataschool.io/how-to-contribute-on-github/
 
 ## DCO
