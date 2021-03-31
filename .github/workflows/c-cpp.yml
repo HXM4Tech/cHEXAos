@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Prepare
+      run: sudo apt-get install -y nasm xorriso grub-pc-bin grub-common gcc-cross-x86_64-elf
     - name: clean
       run: make clean
     - name: make
