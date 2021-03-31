@@ -8,8 +8,8 @@ https://www.dataschool.io/how-to-contribute-on-github/
 By contributing to this project you agree to the Developer Certificate of Origin (DCO) created by The Linux Foundation.
 If you don't know it, please read [DCO file](DCO).
 
-## Contribution description
-In contribution description you have to provide the following informations:
+## Pull request description
+In pull request description you have to provide the following informations:
 * What has been added?
 * What has been removed?
 * What do they do?
