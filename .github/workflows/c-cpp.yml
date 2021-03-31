@@ -14,8 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Prepare
-      run: sudo apt-get install -y nasm xorriso grub-pc-bin grub-common gcc-cross-x86_64-elf
-    - name: clean
-      run: make clean
-    - name: make
-      run: make
+      run: sudo apt-get install -y docker && sudo systemctl enable --now docker && sudo docker build buildenv -t hexa && sudo docker run --rm -it -v $PWD:/root/env hexa
+    - name: Clean
+      run: sudo docker run --rm -it -v /home/ks/cHEXAos:/root/env hexa make clean
+    - name: Build
+      run: sudo docker run --rm -it -v /home/ks/cHEXAos:/root/env hexa make
